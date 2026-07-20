@@ -17,3 +17,15 @@
    7. .btn-secondary — background transparent, border var(--secondary), color var(--secondary)
    8. .site-footer — background var(--secondary), white text, text-align center, padding
    ============================================ */
+
+:root {
+  --primary: #10746b;
+}
+
+p {
+  color: var(--primary);
+}
+
+p > span {
+  color: yellow;
+}
