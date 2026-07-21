@@ -12,8 +12,8 @@
 
 .box-overflow {
   width: 300px;
-  padding: 20px;
-  border: 2px solid #333;
+  padding: 0px;
+  border: 0px solid #333;
   background: #e8f4f8;
 }
 
@@ -25,7 +25,7 @@
 */
 
 .box-a {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   background: #ffeaa7;
   padding: 16px;
 }
@@ -46,6 +46,7 @@
 .bad-span {
   width: 200px;
   background: #74b9ff;
-  padding: 8px;
+  padding: 0px;
   text-align: center;
+  display: inline-block
 }
