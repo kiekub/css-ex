@@ -22,7 +22,7 @@
 /* --- Bug 2 ---
    Goal: Gap between .box-a and .box-b should be 70px.
    Current: Margins are collapsing — only 40px gap.
-   Fix: add a property to .box-b to prevent margin collapse.
+   Fix: add a property to .box-b `to prevent margin collapse.
 */
 
 .box-a {
