@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    width: 270px;
+    margin: 40px auto;
+}
+
+.intro h1{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:6px;
+    padding: 10px 20px 10px;
+}
+
+.intro p{
+    font-size:9px;
+    line-height:1.4;
+    color:black;
+    margin-bottom:2px;
+    padding: 10px 20px 10px;
+}
+
+.percent_badge{
+    display:inline-block;
+    background:rgba(0, 160, 67, 0.866);
+    color:black;
+    font-size:40px;
+    font-weight:800;
+    padding:4px 10px;
+    margin-bottom:2px;
+    border-radius: 8px;
+    align-self:first baseline;
+    margin: 0 0 8px 20px;
+}
+
+.content p{
+    font-size:9px;
+    font-weight: bold;
+    line-height:1.4;
+    color:black;
+    margin-bottom:2px;
+    padding: 0px 20px 10px;
+}
+
+.money_badge{
+    display:inline-block;
+    background:rgba(0, 160, 67, 0.866);
+    color:black;
+    font-size:28px;
+    font-weight:800;
+    padding:4px 10px;
+    margin-bottom:2px;
+    border-radius: 8px;
+    align-self: first baseline;
+    margin: 0 0 8px 20px;
+}
+
+.summary p{
+    font-size:9px;
+    font-weight: bold;
+    line-height:1.4;
+    color:black;
+    margin-bottom: 40px;
+    padding: 0px 20px 10px;
+}
